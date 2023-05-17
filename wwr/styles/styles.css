@@ -64,10 +64,8 @@ nav a:hover {
     color:black
 }
 .join:hover {
+    background-color:#F5F5F5;
     color:black
-}
-.nav:hover {
-    background-color: #F5F5F5;
 }
 .msg {
     background-color:#F5F5F5;
@@ -93,6 +91,6 @@ footer a:hover {
     color: black
 }
 footer p a:hover {
-    color:black
     text-decoration: underline;
+    color:black
 }
