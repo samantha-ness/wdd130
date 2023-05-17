@@ -90,8 +90,9 @@ footer a {
     color:#D76947
 }
 footer a:hover {
-    color:black
+    color: #D76947
 }
 footer p a:hover {
+    color:black
     text-decoration: underline;
 }
