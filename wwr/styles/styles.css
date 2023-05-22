@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Prata&display=swap'); 
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,16 +10,24 @@
     width: 80px
 }
 .icon {
+    padding-top: 10px;
     width: 80px
 }
 nav a {
     text-decoration: none;
+    padding: 35px;
     text-align: center;
     color: black
 
 }
 .home-title {
     color: black;
+    font-family: 'Prata', Times, Cochin;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
 }
 #hero-img {
     width: 100%
@@ -35,12 +47,31 @@ h4 {
 .home-grid {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
+.cardsection {
+    font-family: 'Prata', Times, Cochin;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #D6C0AE;
+}
 #background {
     height: 725px;
     background-color: #CCDCE1;
 }
 body {
     background-color: #F5F5F5;
+    font-family: 'Heebo', Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #CCDCE1;
@@ -49,15 +80,15 @@ nav a:hover {
     background-color: #F5F5F5;
     color: #D76947
 }
-.book {
-    text-decoration: none;
+
+.join, .book {
     background-color: #F5F5F5;
-    color: #D76947
-}
-.join {
+    color: #D76947;
     text-decoration: none;
-    background-color: #F5F5F5;
-    color: #D76947
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px
 }
 .book:hover {
     background-color: #F5F5F5;
@@ -69,14 +100,21 @@ nav a:hover {
 }
 .msg {
     background-color:#F5F5F5;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
+    font-family: 'Prata', Times, Cochin;
     color:black
 }
 .msg p {
+   padding-bottom: 35px;
+    font-size: .8em
     color:black
 }
 footer {
+    padding: 25px 50px;
+    margin-top: 200px;
     background-color: #CCDCE1;
     color: black
 }
@@ -92,4 +130,7 @@ footer a:hover {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social image {
+    padding-top: 15px;
 }
