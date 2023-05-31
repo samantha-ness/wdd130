@@ -1,0 +1,13 @@
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+}
+
+body {
+    background-color: pink;
+}
+
+@media screen {
+    :nth-of-type()
+}
