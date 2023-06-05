@@ -8,6 +8,14 @@ body {
     background-color: pink;
 }
 
-@media screen {
-    :nth-of-type()
+@media screen and (min-width: 628px){
+    body{
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (min-width: 812px){
+    body{
+        background-color: seagreen;
+    }
 }

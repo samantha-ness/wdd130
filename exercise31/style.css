@@ -1,4 +1,4 @@
-#div1 {
+div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 250px 250px;
@@ -8,6 +8,16 @@ body {
     background-color: purple;
 }
 
-@media screen {
-    
+@media screen and (max-width: 871px) {
+    body {
+        background-color: orange;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 673px) {
+    body {
+        background-color: blue;
+    }
 }
