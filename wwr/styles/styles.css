@@ -55,17 +55,20 @@ nav a {
 }
 #hero-msg h1 {
     text-align: center;
-    color:#F5F5F5
+    color:#F5F5F5;
+    margin-top: 30px;
+    margin-bottom: -25px;
 }
 #hero-msg h4 {
     text-align: center;
-    color: #D76947
+    color: #D76947;
 }
 h4 {
-    color:black
+    color:black;
 }
 .button-box {
     text-align: center;
+    margin-top: 50px;
 }
 .home-grid {
     text-align: center;
