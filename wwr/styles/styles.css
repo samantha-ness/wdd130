@@ -208,6 +208,49 @@ footer .social image {
     padding-top: 15px;
 }
 
+/* This is the CSS for the subpage */
+
+.sub_banner {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.sub_b_image {
+    width: 100%;
+}
+
+.heading_faq {
+    text-align: center;
+    margin-top: -275px;
+    color: white;
+}
+
+.subheading_faq {
+    text-align: center;
+    margin-top: -175px;
+    color: #CCDCE1
+}
+
+#q-1, #q-3, #q-5 {
+    background-color:#F5F5F5;
+    padding: 30px;
+}
+
+#q-2, #q-4, #q-6 {
+    background-color: #CCDCE1;
+    padding: 30px;
+}
+
+#more-ques {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #F5F5F5;
+}
+
+#followup {
+    grid-column: 2/6;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
