@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: gainsboro;
+}
+
+#text {
+    grid-column: 3/4;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 70px;
+}
+
+#profile {
+    width: 400px;
+    height: 470px;
+    grid-column: 2/3;
+    padding-top: 70px;
+} 
+
+p {
+    font-size: 12px;
+}
