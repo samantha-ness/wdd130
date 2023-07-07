@@ -12,8 +12,8 @@
 
 .accordion::after {
     content: "\02795";
-    font-size: 12px;
-    color:#3F7D20;
+    font-size: 20px;
+    color: red !important;
     float: right;
     margin-left: 5px;
 }
