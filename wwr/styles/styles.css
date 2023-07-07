@@ -267,12 +267,23 @@ footer .social image {
 
 #followup h2 {
     text-align: center;
+    margin-top: 30px;
 }
 
 #Q-image {
     grid-row: 1;
     grid-column: 2/4;
     margin-top: 30px;
+}
+
+#contactus_subp {
+    text-decoration: none;
+    color: #D76947;
+    margin-bottom: 20px;
+}
+
+#contactus_subp:hover {
+    color: black;
 }
 
 @media screen and (max-width: 900px) {
@@ -333,20 +344,6 @@ footer .social image {
     #followup {
         margin-left: 125px;
     }
-
-    /*#followup {
-        grid-row: 1;
-        display: block;
-        margin: 0 auto;
-    }
-
-    #Q-image {
-        grid-row: 2;
-        display: block;
-        margin: 0 auto;
-    } */
-
-    
     
     footer {
         margin-top: 25px;
