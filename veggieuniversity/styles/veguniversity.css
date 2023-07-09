@@ -1,3 +1,18 @@
+#VS-title {
+    color: white;
+    background-color: #96BE8C;
+    font-size: 32px;
+}
+
+#VS-define h2 {
+    color: #3F7D20;
+}
+
+.fact {
+    background-color: #ACECA1;
+    color: #3F7D20;
+}
+
 .accordion {
     background-color: white;
     color: #3F7D20;
@@ -33,3 +48,11 @@
     overflow: hidden;
 }
 
+#combopic {
+    width: 30%;
+    height: 30%;
+}
+
+footer {
+    background-color: #96BE8C;
+}

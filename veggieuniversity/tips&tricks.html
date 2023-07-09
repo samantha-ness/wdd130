@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veggie Sides - Veggie University</title>
+
+    <link rel="stylesheet" href="styles/veguniversity.css">
+
+</head>
+<body>
+    <header>
+        <a href="home.html">
+            <img src="images/veglogo1.png" alt="Logo">
+        </a>
+        <nav>
+            <a href="vegsides.html">Quick Veggie Sides</a>
+            <a href="tips&tricks.html">Tips & Tricks</a>
+            <a href="vegmeals.html">Veggie Meals</a>
+        </nav>
+    </header>
+    <main>
+        <section id="TT-title">
+            <h1><strong>Tips & Tricks</strong></h1>
+        </section>
+        <section id="TT-define">
+            <p>This section is basically a quick stop for veggie-hacks! Maybe it's a dip or condiment you never thought to try with your veggies, or the best way to cut a cauliflower (a real head-scratcher sometimes)--all the good stuff you want to know.</p>
+            <h2>Browse by topic below!</h2>
+        </section>
+        <div class="TTtopic">
+            <p>DIP & VEGGIE COMBOS</p>
+        </div>
+        <img src="images/placeholderTT.jpg" alt="placeholder image" id="combopic">
+        <div class="collapse">
+            <button class="accordion">Tip One</button>
+                <section class="recipe">
+                    <p>Instructions, blah blah blah...</p>
+                </section>
+
+                <button class="accordion">Tip Two</button>
+                <section class="recipe">
+                    <p>Instructions, blah blah blah...</p>
+                </section>
+
+                <button class="accordion">Tip Three</button>
+                <section class="recipe">
+                    <p>Instructions, blah blah blah...</p>
+                </section>
+        </div>
+        
+        <div class="TTtopic">
+            <p>FOOD PREP</p>
+        </div>
+        <img src="images/rsz_choppedveg-C.jpg" alt="placeholder image" id="combopic">
+        <div class="collapse">
+            <button class="accordion">Tip One</button>
+                <section class="recipe">
+                    <p>Instructions, blah blah blah...</p>
+                </section>
+
+                <button class="accordion">Tip Two</button>
+                <section class="recipe">
+                    <p>Instructions, blah blah blah...</p>
+                </section>
+
+                <button class="accordion">Tip Three</button>
+                <section class="recipe">
+                    <p>Instructions, blah blah blah...</p>
+                </section>
+        </div>
+
+    </main>
+
+    <script>
+
+        var accord = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < accord.length; i++) {
+            accord[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+
+                var recipe = this.nextElementSibling;
+                if (recipe.style.display === "block") {
+                    recipe.style.display = "none";
+                }
+                else {
+                    recipe.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+
+    <footer>
+        <a href="home.html">
+            <img src="images/veglogo1.png" alt="Logo">
+        </a>
+        <p>Veggie University &copy;2023</p>
+        <p>Questions or ideas? myemail@email.com</p>
+        <a href="site-plan.html">Site Plan</a>
+        <section id="icons">
+            <a href="https://facebook.com/">
+                <img src="images/FB_iconfinder_R&C.png" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/insta_iconfinder_R&C.png" alt="">
+            </a>
+        </section>
+    </footer>
+</body>
+</html>
