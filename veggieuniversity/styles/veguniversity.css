@@ -38,9 +38,13 @@
 .accordion::after {
     content: "\02795";
     font-size: 20px;
-    color: red !important;
     float: right;
     margin-left: 5px;
+    color:green !important;
+}
+
+.accordion::after:link, .accordion::after:visited, .accordion::after:hover, .accordion::after:active {
+    color: #56ee0a;
 }
 
 .active::after {
