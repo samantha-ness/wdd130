@@ -175,8 +175,11 @@ h1, h2, h3, h4 {
 
 #cukediv {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
     grid-template-rows: 2fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
 }
 
 #cukefact {
@@ -185,6 +188,9 @@ h1, h2, h3, h4 {
     height: 200px;
     width: 250px;
     border-radius: 50%;
+    grid-column: 2/3;
+    align-self: center;
+    margin-right: 80px;
 }
 
 #cukefact p {
@@ -193,13 +199,98 @@ h1, h2, h3, h4 {
     margin: 20px;
 }
 
+#cukediv a {
+    color: #3F7D20;
+}
+
 #cukediv img {
-    width: 200%;
+    width: 100%;
+    align-self: center;
 }
 
 #cukecollaspe {
     grid-row: 2/3;
     grid-column: 1/6;
+}
+
+#carrotdiv {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center; 
+}
+
+#carrotfact {
+    background-color: #ACECA1;
+    color: #3F7D20;
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    grid-column: 3/4;
+    align-self: center;
+    margin-left: 80px;
+}
+
+#carrotfact p {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+}
+
+#carrotfact a {
+    color: #3F7D20;
+}
+
+#carrotcollapse {
+    grid-row: 2/3;
+    grid-column: 1/6;
+}
+
+#carrotdiv img {
+    width: 165%;
+    align-self: center;
+}
+
+#zucdiv {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 2fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+}
+
+#zucfact {
+    background-color: #ACECA1;
+    color: #3F7D20;
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    grid-column: 2/3;
+    align-self: center;
+    margin-right: 80px;
+}
+
+#zucfact p {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+}
+
+#zucdiv a {
+    color: #3F7D20;
+}
+
+#zuccollapse {
+    grid-row: 2/3;
+    grid-column: 1/6;
+}
+
+#zucdiv img {
+    width: 100%;
+    align-self: center;
 }
 
 #TT-title h1 {
@@ -229,7 +320,7 @@ h1, h2, h3, h4 {
 
 .accordion::after {
     content: "\02795";
-    font-size: 20px;
+    font-size: 15px;
     float: right;
     margin-left: 5px;
     color:green !important;
