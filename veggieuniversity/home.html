@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="styles/veguniversity.css">
     
 </head>
-<body>
-    <header>
+<body> 
+    <header> 
         <a href="home.html">
-            <img src="images/veglogo1.png" alt="Logo">
+            <img class="logoimage" src="images/veglogo1.png" alt="Logo">
         </a>
         <nav>
             <a href="vegsides.html">Quick Veggie Sides</a>
@@ -21,19 +21,21 @@
     </header>
     <div id="welcome">
         <img src="images/rsz_woodframe-C.jpg" alt="Welcome Image">
-        <h1>Welcome to Veggie University</h1>
-        <h4>Really quick ideas for really good veggies, for really busy students!</h3>
+        <section id="welcometext">
+        <h1>WELCOME TO VEGGIE UNIVERSITY</h1>
+        <h4>REALLY QUICK IDEAS FOR REALLY GOOD VEGGIES, FOR REALLY BUSY STUDENTS!</h4>
+        </section>
     </div>
-    <main>
-        <h2>About this site</h2>
+    <main> 
         <section id="intro">
+            <h2 id="specialabout">About this site</h2>
             <h3>The Problem</h3>
             <p>When was the last time you ate a vegetable--and actually enjoyed it?
                 <br><br>
             In the life of a college student, there's always one more thing we know we should be doing--but have a hard time getting to. For many, one of those is eating healthy, specifically enough vegetables! We've all been there before. Example: maybe you've found a vegetable recipe that looks delicious, and the blog says it'll only take 15 minutes. You eagerly get started only to realize that it's 15 minutes after an hour of washing, peeling and chopping (the ingredient list conveniently called for everything to be pre-chopped). Or maybe you find some recipes that look tastier than just sprinkling your veggies with salt, but don't look too time-intensive. You give one a try, it turns out well, success! You promise yourself you'll do this at least once a week--and then you don't have time to actually cook again for the next 5 weeks. Or maybe, after enough of these experiences, you've given up and resigned to occasionally shoving a few raw carrot or celery sticks down your throat to assuage your guilt--or maybe you just don't do that ever, because let's be honest, who can think a more boring thing to eat!?
             </p>
             <h3>The Solution</h3>
-            <p>Often, we don't really know how to prepare our vegetables in ways that taste good--like, something we'd actually want to eat again. Or, maybe you do know some ways to make fantastic vegetable dishes--but how often do you actually have time to cook? Exactly. If you're here on this website, it's because you wish you could eat healthy, somehow make your veggies taste delicious, AND do it in a short amount of time. The good news? You've finally found the solution! Welcome to Veggie University!
+            <p id="specialintroP">Often, we don't really know how to prepare our vegetables in ways that taste good--like, something we'd actually want to eat again. Or, maybe you do know some ways to make fantastic vegetable dishes--but how often do you actually have time to cook? Exactly. If you're here on this website, it's because you wish you could eat healthy, somehow make your veggies taste delicious, AND do it in a short amount of time. The good news? You've finally found the solution! Welcome to Veggie University!
             </p>
         </section>
         <section id="different">
@@ -41,42 +43,48 @@
             <p>Allow me to explain! First off, this website is designed by someone like you: a college student who knows how busy life can get, and wants a solution to eating healthier that actually is practical! I'm not a professional chef--these recipes aren't fast because I have wicked-fast cooking skills. Like you, I am also on a budget and can't afford to buy five thousand things for one recipe, no matter how delicious it would make my food taste. Like many of you, I really want to be healthy and feel great. But like everyone, I still just want to eat food that tastes good!</p>
         </section>
         <section id="list">
-            <h4>This website will help out with these needs by being real:</h4>
+            <div id="listtext">
+            <h3>This website will help out with these needs by being real:</h3>
             <ul>
                 <li>My veggie sides recipes are between 3 to 10 minutes long, and the veggie meals are between 10 and 30--ACTUALLY</li>
-                <li>For many of the recipes, I time myself making them for the first time, to make your time estimate as realistic as possible</li>
-                <li>I strive to use foods that the majority of college students are likely to have on hand, OR can easily find and are actually likely to reuse in other meals. My recipes go for the max flavor possible with as few ingredients as possible to save on time and money</li>
+                <br><li>For many of the recipes, I time myself making them for the first time, to make your time estimate as realistic as possible</li>
+                <br><li>I strive to use foods that the majority of college students are likely to have on hand, OR can easily find and are actually likely to reuse in other meals. My recipes go for the max flavor possible with as few ingredients as possible to save on time and money</li>
             </ul>
-            <img src="images/rsz_veg_net-C.jpg" alt="Veggies in a net">
+            </div>
+            <img id="vegnetpic" src="images/rsz_veg_net-C.jpg" alt="Veggies in a net">
         </section>
         <section id="dontwait">
             <h3>So, what are you waiting for?!</h3>
             <p>Get started with one of these links below...</p>
         </section>
         <section id="quicklinks">
-            <a href="vegsides.html">Quick Veggie Sides</a>
-            <p>Speedy solutions to add veggies to your meal at home or on the go</p>
-            <a href="tips&tricks.html">Tips & Tricks</a>
-            <p>Handy veggie hacks</p>
-            <a href="vegmeals.html">Veggie Meals</a>
-            <p>Meals with veggies as the star players</p>
+            <a href="vegsides.html" id="QLa1"><strong>Quick Veggie Sides</strong></a>
+            <p id="QLp1">Speedy solutions to add veggies to your meal at home or on the go</p>
+            <a href="tips&tricks.html" id="QLa2"><strong>Tips & Tricks</strong></a>
+            <p id="QLp2">Handy veggie hacks</p>
+            <a href="vegmeals.html" id="QLa3"><strong>Veggie Meals</strong></a>
+            <p id="QLp3">Meals with veggies as the star players</p>
         </section>
     </main>
     <footer>
         <a href="home.html">
-            <img src="images/veglogo1.png" alt="Logo">
+            <img class="logoimage" src="images/veglogo1.png" alt="Logo">
         </a>
+       <div class="fakenav">
+
         <p>Veggie University &copy;2023</p>
-        <p>Questions or ideas? myemail@email.com</p>
+        <p>Questions or ideas? <br> myemail@email.com</p>
         <a href="site-plan.html">Site Plan</a>
         <section id="icons">
             <a href="https://facebook.com/">
                 <img src="images/FB_iconfinder_R&C.png" alt="Facebook Icon">
             </a>
             <a href="https://instagram.com">
-                <img src="images/insta_iconfinder_R&C.png" alt="">
+                <img src="images/insta_iconfinder_R&C.png" alt="Instagram Icon">
             </a>
         </section>
+
+       </div>
     </footer>
 </body>
 </html>

@@ -11,7 +11,7 @@
 <body>
     <header>
         <a href="home.html">
-            <img src="images/veglogo1.png" alt="Logo">
+            <img class="logoimage" src="images/veglogo1.png" alt="Logo">
         </a>
         <nav>
             <a href="vegsides.html">Quick Veggie Sides</a>
@@ -28,12 +28,18 @@
             <h2>Browse recipes by veggie below!</h2>
         </section>
         <div id="cukediv">
-            <div class="fact">
-                <p>Did you know...?</p>
+            <div id="cukefact">
+                <p>Did you know...
+                    <br><br> "A serving of cucumber -- one-half a cup -- is about 8 calories"
+                </p>
+                <p>
+                    (see <a href="https://www.webmd.com/food-recipes/cucumber-health-benefits">"Cucumber"</a> from <em>WebMD</em>)
+                </p>
             </div>
             <img src="images/rsz_1cukehalves-C.jpg" alt="Cucumbers">
             <h1>Cucumber</h1>
-            <div class="collapse">
+            <section id="cukecollaspe">
+                <div class="collapse">
                 <button class="accordion">Recipe One</button>
                     <section class="recipe">
                         <p>Instructions, blah blah blah...</p>
@@ -48,7 +54,8 @@
                     <section class="recipe">
                         <p>Instructions, blah blah blah...</p>
                     </section>
-            </div>
+                </div>
+            </section>
         </div>
 
         <div id="carrotdiv">
@@ -122,21 +129,26 @@
 
     </script>
 
-    <footer>
-        <a href="home.html">
-            <img src="images/veglogo1.png" alt="Logo">
+<footer>
+    <a href="home.html">
+        <img class="logoimage" src="images/veglogo1.png" alt="Logo">
+    </a>
+   <div class="fakenav">
+
+    <p>Veggie University &copy;2023</p>
+    <p>Questions or ideas? <br> myemail@email.com</p>
+    <a href="site-plan.html">Site Plan</a>
+    <section id="icons">
+        <a href="https://facebook.com/">
+            <img src="images/FB_iconfinder_R&C.png" alt="Facebook Icon">
         </a>
-        <p>Veggie University &copy;2023</p>
-        <p>Questions or ideas? myemail@email.com</p>
-        <a href="site-plan.html">Site Plan</a>
-        <section id="icons">
-            <a href="https://facebook.com/">
-                <img src="images/FB_iconfinder_R&C.png" alt="Facebook Icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/insta_iconfinder_R&C.png" alt="">
-            </a>
-        </section>
-    </footer>
+        <a href="https://instagram.com">
+            <img src="images/insta_iconfinder_R&C.png" alt="Instagram Icon">
+        </a>
+    </section>
+
+   </div>
+</footer>    
+
 </body>
 </html>
