@@ -302,8 +302,101 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+#TT-define {
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#TT-define p {
+    border-style: solid;
+    border-color: #3F7D20;
+    padding: 15px;
+    text-align: center;
+    margin-top: 60px;
+}
+
 #TT-define h2 {
     color: #3F7D20;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    justify-self: left;
+}
+
+#TT_DVsubmain {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+}
+
+#DVtopic {
+    background-color: #96BE8C;
+    color: white;
+    height: 200px;
+    width: 250px;
+    grid-column: 1/2;
+    align-self: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+#DVtopic p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+#combopic {
+    grid-template-columns: 2/3;
+    align-self: center;
+    width: 100%;
+}
+
+#TT_FPsubmain {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%; 
+    justify-content: center;
+}
+
+#FPtopic {
+    background-color: #96BE8C;
+    color: white;
+    height: 200px;
+    width: 250px;
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: right;
+}
+
+#FPtopic p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.recipe p a {
+    color: #3F7D20;
+}
+
+#preppic {
+    grid-template-columns: 1/2;
+    align-self: center;
+    width: 100%;
+}
+
+.collapse {
+    grid-row: 2/3;
+    grid-column: 1/6;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .accordion {
@@ -343,11 +436,6 @@ h1, h2, h3, h4 {
     background-color: white;
     display: none;
     overflow: hidden;
-}
-
-#combopic {
-    width: 30%;
-    height: 30%;
 }
 
 .TTtopic {
